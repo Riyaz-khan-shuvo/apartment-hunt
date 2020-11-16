@@ -11,10 +11,13 @@ const AddRent = () => {
                 <Sidebar></Sidebar>
             </div>
             <div className="col-xl-10 col-lg-10 col-md-9 col-sm-8 col-12">
-                <h3 className="my-4 mx-5">Add Services</h3>
+                <div className="d-flex justify-content-between">
+                    <h4 className="mt-4 py-3 ml-4">Add Rent House</h4>
+                    <h6 className="mt-5  mx-5 py-3">Sufi Ahmed</h6>
+                </div>
                 <div
                     className="bg-light py-2 rounded "
-                    style={{ height: "89vh" }}
+                    style={{ height: "80vh" }}
                 >
                     <form>
                         <div
