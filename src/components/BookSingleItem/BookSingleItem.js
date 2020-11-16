@@ -2,6 +2,7 @@ import React from "react";
 
 const BookSingleItem = ({ item }) => {
     const { name, email, phone, message, status } = item;
+
     return (
         <tr>
             <td> {name} </td>
