@@ -9,11 +9,9 @@
     padding: 5px 15px;
     border-radius: 5px;
 }
-
-.addService-container {
-    width: 100vw;
+.submit-btn {
+    background-color: #275a53;
 }
-
 @media screen and (max-width: 770px) {
     .submit-btn {
         margin-left: 60px;

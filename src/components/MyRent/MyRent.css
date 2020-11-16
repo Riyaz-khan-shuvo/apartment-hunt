@@ -34,6 +34,17 @@ td {
 th {
     margin-top: 10px;
 }
+.details-btn {
+    background-color: #275a53;
+    color: #fff;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.details-btn:hover {
+    background-color: #93aca9;
+}
 
 @media screen and (max-width: 576px) {
     .table-container {

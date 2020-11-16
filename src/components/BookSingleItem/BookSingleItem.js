@@ -3,6 +3,18 @@ import React from "react";
 const BookSingleItem = ({ item }) => {
     const { name, email, phone, message, status } = item;
 
+    function statusColor(status) {
+        if (status === "Pending") {
+            return "pending";
+        }
+        if (status === "On Going") {
+            return "on-going";
+        }
+        if (status === "Done") {
+            return "done";
+        }
+    }
+
     return (
         <tr>
             <td> {name} </td>
@@ -10,21 +22,21 @@ const BookSingleItem = ({ item }) => {
             <td> {phone} </td>
             <td> {message} </td>
             <td>
-                <select name="status">
+                <select name="status" className={statusColor(status)}>
                     <option
-                        value=""
+                        value="Pending"
                         selected={status === "Pending" ? "selected" : ""}
                     >
                         Pending
                     </option>
                     <option
-                        value=""
+                        value="On Going"
                         selected={status === "On Going" ? "selected" : ""}
                     >
                         On Going
                     </option>
                     <option
-                        value=""
+                        value="Done"
                         selected={status === "Done" ? "selected" : ""}
                     >
                         Done

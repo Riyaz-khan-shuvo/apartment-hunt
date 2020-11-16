@@ -34,6 +34,23 @@ td {
 th {
     margin-top: 10px;
 }
+select {
+    border: none;
+}
+select:active {
+    border: none;
+}
+.pending {
+    color: #ff4545;
+}
+
+.on-going {
+    color: #ffbd3e;
+}
+
+.done {
+    color: #009444;
+}
 
 @media screen and (min-width: 576px) {
     .table-container {

@@ -38,7 +38,7 @@ const MyRent = () => {
                                         <td>{item.name}</td>
                                         <td>{item.price}</td>
                                         <td>
-                                            <button className="btn btn-success">
+                                            <button className=" details-btn">
                                                 View Details
                                             </button>
                                         </td>
